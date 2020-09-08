@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <link rel='icon' href="{{ url_for('static', filename='ico.png') }}" / >
+    <style type="text/css">
+      body {
+        background: pink;
+        color: blue;
+      }
+      div.container {
+        max-width: 1000px;
+        margin: 100px auto;
+        border: 20px solid white;
+        padding: 10px;
+        text-align: center;
+      }
+      h4 {
+        text-transform: uppercase;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h4>Nikita Dubina</h4>
+      <p>Andrey: <img src="{{ url_for('static', filename='meme1.png') }}"/> </p>
+    </div>
+  </body>
+</html>
